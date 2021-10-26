@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44708A040AF7A28858FE5E18 /* Pods_VKNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7A75DFDFE0E72B8292939A /* Pods_VKNews.framework */; };
 		F3729D912727A27D00E24C54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3729D902727A27D00E24C54 /* AppDelegate.swift */; };
 		F3729D932727A27D00E24C54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3729D922727A27D00E24C54 /* SceneDelegate.swift */; };
-		F3729D952727A27D00E24C54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3729D942727A27D00E24C54 /* ViewController.swift */; };
-		F3729D982727A27D00E24C54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3729D962727A27D00E24C54 /* Main.storyboard */; };
+		F3729D952727A27D00E24C54 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3729D942727A27D00E24C54 /* AuthViewController.swift */; };
 		F3729D9A2727A27F00E24C54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3729D992727A27F00E24C54 /* Assets.xcassets */; };
 		F3729D9D2727A27F00E24C54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3729D9B2727A27F00E24C54 /* LaunchScreen.storyboard */; };
+		F3729DAB2727B06100E24C54 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3729DAA2727B06100E24C54 /* AuthService.swift */; };
+		F3729DB22727B48700E24C54 /* AuthViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3729DB12727B48700E24C54 /* AuthViewController.storyboard */; };
+		F3729DB82727C27300E24C54 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3729DB72727C27300E24C54 /* FeedViewController.swift */; };
+		F3729DBB2727C28800E24C54 /* FeedViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3729DBA2727C28800E24C54 /* FeedViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		089B5D4FA45CC6D4991B9D3D /* Pods-VKNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKNews.debug.xcconfig"; path = "Target Support Files/Pods-VKNews/Pods-VKNews.debug.xcconfig"; sourceTree = "<group>"; };
+		E74291CE4A4DE9243BF3D3D8 /* Pods-VKNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKNews.release.xcconfig"; path = "Target Support Files/Pods-VKNews/Pods-VKNews.release.xcconfig"; sourceTree = "<group>"; };
+		ED7A75DFDFE0E72B8292939A /* Pods_VKNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VKNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3729D8D2727A27D00E24C54 /* VKNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3729D902727A27D00E24C54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3729D922727A27D00E24C54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F3729D942727A27D00E24C54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F3729D972727A27D00E24C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3729D942727A27D00E24C54 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		F3729D992727A27F00E24C54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3729D9C2727A27F00E24C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3729D9E2727A27F00E24C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3729DAA2727B06100E24C54 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		F3729DB12727B48700E24C54 /* AuthViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthViewController.storyboard; sourceTree = "<group>"; };
+		F3729DB72727C27300E24C54 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		F3729DBA2727C28800E24C54 /* FeedViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FeedViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44708A040AF7A28858FE5E18 /* Pods_VKNews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA8CE696F5F534FBF5F8FA38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				089B5D4FA45CC6D4991B9D3D /* Pods-VKNews.debug.xcconfig */,
+				E74291CE4A4DE9243BF3D3D8 /* Pods-VKNews.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BB596C5CA8FCC9FAFA1B113F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED7A75DFDFE0E72B8292939A /* Pods_VKNews.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F3729D842727A27D00E24C54 = {
 			isa = PBXGroup;
 			children = (
 				F3729D8F2727A27D00E24C54 /* VKNews */,
 				F3729D8E2727A27D00E24C54 /* Products */,
+				BA8CE696F5F534FBF5F8FA38 /* Pods */,
+				BB596C5CA8FCC9FAFA1B113F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +88,40 @@
 			children = (
 				F3729D902727A27D00E24C54 /* AppDelegate.swift */,
 				F3729D922727A27D00E24C54 /* SceneDelegate.swift */,
-				F3729D942727A27D00E24C54 /* ViewController.swift */,
-				F3729D962727A27D00E24C54 /* Main.storyboard */,
+				F3729DAD2727B06500E24C54 /* Services */,
+				F3729DBF2727C32500E24C54 /* AuthVC */,
+				F3729DBD2727C31C00E24C54 /* FeedVC */,
 				F3729D992727A27F00E24C54 /* Assets.xcassets */,
 				F3729D9B2727A27F00E24C54 /* LaunchScreen.storyboard */,
 				F3729D9E2727A27F00E24C54 /* Info.plist */,
 			);
 			path = VKNews;
+			sourceTree = "<group>";
+		};
+		F3729DAD2727B06500E24C54 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F3729DAA2727B06100E24C54 /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F3729DBD2727C31C00E24C54 /* FeedVC */ = {
+			isa = PBXGroup;
+			children = (
+				F3729DB72727C27300E24C54 /* FeedViewController.swift */,
+				F3729DBA2727C28800E24C54 /* FeedViewController.storyboard */,
+			);
+			path = FeedVC;
+			sourceTree = "<group>";
+		};
+		F3729DBF2727C32500E24C54 /* AuthVC */ = {
+			isa = PBXGroup;
+			children = (
+				F3729D942727A27D00E24C54 /* AuthViewController.swift */,
+				F3729DB12727B48700E24C54 /* AuthViewController.storyboard */,
+			);
+			path = AuthVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3729DA12727A27F00E24C54 /* Build configuration list for PBXNativeTarget "VKNews" */;
 			buildPhases = (
+				F0A491BA6851F58AD7D7C0B2 /* [CP] Check Pods Manifest.lock */,
 				F3729D892727A27D00E24C54 /* Sources */,
 				F3729D8A2727A27D00E24C54 /* Frameworks */,
 				F3729D8B2727A27D00E24C54 /* Resources */,
+				1B90EA16F5C342655A90F9C9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,35 +184,72 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3729D9D2727A27F00E24C54 /* LaunchScreen.storyboard in Resources */,
+				F3729DB22727B48700E24C54 /* AuthViewController.storyboard in Resources */,
 				F3729D9A2727A27F00E24C54 /* Assets.xcassets in Resources */,
-				F3729D982727A27D00E24C54 /* Main.storyboard in Resources */,
+				F3729DBB2727C28800E24C54 /* FeedViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B90EA16F5C342655A90F9C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VKNews/Pods-VKNews-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VKNews/Pods-VKNews-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VKNews/Pods-VKNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0A491BA6851F58AD7D7C0B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VKNews-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F3729D892727A27D00E24C54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3729D952727A27D00E24C54 /* ViewController.swift in Sources */,
+				F3729D952727A27D00E24C54 /* AuthViewController.swift in Sources */,
 				F3729D912727A27D00E24C54 /* AppDelegate.swift in Sources */,
+				F3729DB82727C27300E24C54 /* FeedViewController.swift in Sources */,
 				F3729D932727A27D00E24C54 /* SceneDelegate.swift in Sources */,
+				F3729DAB2727B06100E24C54 /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F3729D962727A27D00E24C54 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F3729D972727A27D00E24C54 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F3729D9B2727A27F00E24C54 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +379,7 @@
 		};
 		F3729DA22727A27F00E24C54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 089B5D4FA45CC6D4991B9D3D /* Pods-VKNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +399,7 @@
 		};
 		F3729DA32727A27F00E24C54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E74291CE4A4DE9243BF3D3D8 /* Pods-VKNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
