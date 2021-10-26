@@ -17,6 +17,8 @@
 		F3729DB22727B48700E24C54 /* AuthViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3729DB12727B48700E24C54 /* AuthViewController.storyboard */; };
 		F3729DB82727C27300E24C54 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3729DB72727C27300E24C54 /* FeedViewController.swift */; };
 		F3729DBB2727C28800E24C54 /* FeedViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3729DBA2727C28800E24C54 /* FeedViewController.storyboard */; };
+		F3729DC22728185E00E24C54 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3729DC12728185E00E24C54 /* NetworkService.swift */; };
+		F3729DC5272819AA00E24C54 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3729DC4272819AA00E24C54 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		F3729DB12727B48700E24C54 /* AuthViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthViewController.storyboard; sourceTree = "<group>"; };
 		F3729DB72727C27300E24C54 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		F3729DBA2727C28800E24C54 /* FeedViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FeedViewController.storyboard; sourceTree = "<group>"; };
+		F3729DC12728185E00E24C54 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		F3729DC4272819AA00E24C54 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				F3729DAA2727B06100E24C54 /* AuthService.swift */,
+				F3729DC12728185E00E24C54 /* NetworkService.swift */,
+				F3729DC4272819AA00E24C54 /* API.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -243,7 +249,9 @@
 				F3729D912727A27D00E24C54 /* AppDelegate.swift in Sources */,
 				F3729DB82727C27300E24C54 /* FeedViewController.swift in Sources */,
 				F3729D932727A27D00E24C54 /* SceneDelegate.swift in Sources */,
+				F3729DC22728185E00E24C54 /* NetworkService.swift in Sources */,
 				F3729DAB2727B06100E24C54 /* AuthService.swift in Sources */,
+				F3729DC5272819AA00E24C54 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

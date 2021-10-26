@@ -18,10 +18,14 @@ protocol AuthServiceDelegate: class {
 
 class AuthService: NSObject, VKSdkDelegate, VKSdkUIDelegate {
    
-    private let appid = "YOUR ID - 1234567"
+    private let appid = "YOUR ID"
     private let vkSdk: VKSdk
     
     weak var delegate: AuthServiceDelegate?
+    
+    var token: String? {
+        return VKSdk.accessToken()?.accessToken
+    }
     
     override init() {
         vkSdk = VKSdk.initialize(withAppId: appid)
