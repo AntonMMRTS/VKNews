@@ -15,7 +15,7 @@ class FeedViewController: UIViewController {
         super.viewDidLoad()
 
         view.backgroundColor = .systemBlue
-        networkService.getFeed()
+        
     }
     
 
